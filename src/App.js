@@ -4,8 +4,8 @@ import Capacitors from "./Components/capacitors";
 import Resitors from "./Components/resistors";
 import Diodes from "./Components/diodes";
 import Integratedcircuit from "./Components/ic";
-import styles from "./App.css";
 import Navbar from "./Components/navbar";
+import Home from "./Components/home";
 
 class App extends React.Component {
   render() {
@@ -15,7 +15,7 @@ class App extends React.Component {
           <Navbar />
         </div>
         <Routes>
-          <Route exact path="/" element={<h1>Home Page</h1>} />
+          <Route exact path="/" element={<Home />} />
           <Route exact path="diodes" element={<Diodes />} />
           <Route exact path="resistors" element={<Resitors />} />
           <Route exact path="capacitors" element={<Capacitors />} />

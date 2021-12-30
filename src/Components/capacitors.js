@@ -23,7 +23,11 @@ export default class App extends Component {
             <Grid.Row>
               <Grid.Column>
                 <Header as="h2">Electrolytic Capacitor</Header>
-                <Image src={electrolytic} alt="Electrolytic Capacitor" />
+                <Image
+                  src={electrolytic}
+                  size="small"
+                  alt="Electrolytic Capacitor"
+                />
                 <ul>
                   <li>Construction:Aluminum Film, electrolytic soaked paper</li>
                   <li>Capacitance Rating: 1µF to 47mF</li>
@@ -35,7 +39,7 @@ export default class App extends Component {
               </Grid.Column>
               <Grid.Column>
                 <Header as="h2">Tantalum Capacitor</Header>
-                <Image src={tantalum} alt="Tantalum Capacitor" />
+                <Image src={tantalum} size="small" alt="Tantalum Capacitor" />
                 <ul>
                   <li>Construction:</li>
                   <li>Capacitance Rating:</li>
@@ -44,7 +48,7 @@ export default class App extends Component {
               </Grid.Column>
               <Grid.Column>
                 <Header as="h2">Ceramic Capacitor</Header>
-                <Image src={ceramic} alt="Ceramic Capacitor" />
+                <Image src={ceramic} size="small" alt="Ceramic Capacitor" />
                 <ul>
                   <li>Construction:</li>
                   <li>Capacitance Rating:</li>
@@ -55,7 +59,7 @@ export default class App extends Component {
             <Grid.Row>
               <Grid.Column>
                 <Header as="h2">Mica Capacitor</Header>
-                <Image src={mica} alt="Mica Capacitor" />
+                <Image src={mica} size="small" alt="Mica Capacitor" />
                 <ul>
                   <li>Construction:</li>
                   <li>Capacitance Rating:</li>
@@ -64,7 +68,7 @@ export default class App extends Component {
               </Grid.Column>
               <Grid.Column>
                 <Header as="h2">Film Capacitor</Header>
-                <Image src={film} alt="Film Capacitor" />
+                <Image src={film} size="small" alt="Film Capacitor" />
                 <ul>
                   <li>Construction:</li>
                   <li>Capacitance Rating:</li>
@@ -73,7 +77,7 @@ export default class App extends Component {
               </Grid.Column>
               <Grid.Column>
                 <Header as="h2">Paper Capcitor</Header>
-                <Image src={paper} alt="Paper Capacitor" />
+                <Image src={paper} size="small" alt="Paper Capacitor" />
                 <ul>
                   <li>Construction:</li>
                   <li>Capacitance Rating:</li>

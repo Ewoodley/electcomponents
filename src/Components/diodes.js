@@ -16,21 +16,21 @@ export default class App extends Component {
           <Grid.Row>
             <Grid.Column>
               <Header as="h2">Light-Emitting Diode</Header>
-              <Image src={led} alt="light-emitting diode" />
+              <Image src={led} size="small" alt="light-emitting diode" />
             </Grid.Column>
             <Grid.Column>
               <Header as="h2">Shottky Diode</Header>
-              <Image src={schottky} alt="schottky diode" />
+              <Image src={schottky} size="small" alt="schottky diode" />
             </Grid.Column>
           </Grid.Row>
           <Grid.Row>
             <Grid.Column>
               <Header as="h2">Zener Diode</Header>
-              <Image src={zener} alt="zener diode" />
+              <Image src={zener} size="small" alt="zener diode" />
             </Grid.Column>
             <Grid.Column>
               <Header as="h2">PN Diode</Header>
-              <Image src={pn} alt="pn diode" />
+              <Image src={pn} size="small" alt="pn diode" />
             </Grid.Column>
           </Grid.Row>
         </Grid>
