@@ -1,9 +1,4 @@
-import electrolytic from "../images/electrolyticcap.jpg";
-import tantalum from "../images/Tantalum Cap.jpg";
-import ceramic from "../images/Ceramic Cap.jpeg";
-import mica from "../images/Mica Cap.jpg";
-import film from "../images/Film Cap.jpg";
-import paper from "../images/paper cap.jpg";
+
 
 export const caps = [
   
