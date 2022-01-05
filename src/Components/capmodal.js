@@ -16,6 +16,12 @@ function CapModal() {
       <Modal.Content>
         <Modal.Description>
           These are common terms used with Capacitors
+          <ul>
+            <li>Anode: Positively charged electrode</li>
+            <li>Cathode: Negatively charged electrode</li>
+            <li>Dieelectric: Any material that is capable of transmitting electricity without becoming conductive</li>
+            <li>Electrolyte: Electrically conductive compounds</li>
+          </ul>
         </Modal.Description>
       </Modal.Content>
       <Modal.Actions>

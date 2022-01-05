@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Image, Header } from "semantic-ui-react";
+import Icmodal from './icmodal'
 import Fivepinout from "./555modal";
 import SN70npinout from "./sn74modal";
 import fiveic from "..//images/555IC.jpg";
@@ -11,7 +12,8 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <h1>This page is about Microcontrollers</h1>
+        <Icmodal />
+        <h1>This page is about Integrated Circuits</h1>
         <Grid centered columns={3} divided>
           <Grid.Row>
             <Grid.Column>
