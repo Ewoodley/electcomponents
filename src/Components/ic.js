@@ -8,7 +8,7 @@ import sn70n from "..//images/sn7400n.jpg";
 import LM339N from "..//images/LM339N.jpg";
 import LM3Pinout from "./lm339modal";
 
-export default class App extends Component {
+export default class IntegratedCircuits extends Component {
   render() {
     return (
       <div>

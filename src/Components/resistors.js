@@ -3,7 +3,7 @@ import { Dropdown, Option } from "./dropdown";
 /*import styles from './resistors.modules.css'
  */
 
-export default function App() {
+export default function Resistors() {
   const [state, setState] = useState({
     band1: "",
     band2: "",

@@ -3,7 +3,7 @@ import CapModal from "./capmodal";
 import { Segment, Header, Grid, Image } from "semantic-ui-react";
 import {caps} from './caplist'
 
-export default class App extends Component {
+export default class Capacitors extends Component {
   render() {
     return (
       <div>

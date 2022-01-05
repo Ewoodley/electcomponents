@@ -11,7 +11,7 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <div className="styles.app">
+        <div>
           <Navbar />
         </div>
         <Routes>

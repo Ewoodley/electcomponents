@@ -3,7 +3,7 @@ import { Segment, Grid, Image, Header } from "semantic-ui-react";
 
 import {diodes} from './diodelist'
 
-export default class App extends Component {
+export default class Diodes extends Component {
   render() {
     return (
       <div>
