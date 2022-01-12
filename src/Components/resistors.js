@@ -28,7 +28,7 @@ export default function Resistors() {
        options={ohms}
       />
       
-       <Dropdown
+      <Dropdown
          placeholder="Band 2 color"
          fluid
          selection
@@ -41,7 +41,7 @@ export default function Resistors() {
         selection
         options={multiplier}
       />
-          <Dropdown
+      <Dropdown
         placeholder="Band 4 color - Tolerance"
         fluid
         selection
