@@ -55,6 +55,14 @@ export default class Navbar extends Component {
         >
           Integrated Circuits
         </Menu.Item>
+        <Menu.Item
+          name="Transistors"
+          active={activeItem === "Transistors"}
+          onClick={this.handleItemClick}
+          href="transistors"
+        >
+          Transistors
+        </Menu.Item>
       </Menu>
     );
   }

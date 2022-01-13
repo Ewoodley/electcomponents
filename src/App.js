@@ -6,6 +6,7 @@ import Diodes from "./Components/diodes";
 import Integratedcircuit from "./Components/ic";
 import Navbar from "./Components/navbar";
 import Home from "./Components/home";
+import Transistors from "./Components/transistors";
 
 class App extends React.Component {
   render() {
@@ -20,6 +21,7 @@ class App extends React.Component {
           <Route exact path="resistors" element={<Resitors />} />
           <Route exact path="capacitors" element={<Capacitors />} />
           <Route exact path="ic" element={<Integratedcircuit />} />
+          <Route exact path="transistors" element={<Transistors />} />
         </Routes>
       </Router>
     );

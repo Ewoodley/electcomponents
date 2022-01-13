@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Segment, Grid, Image, Header } from "semantic-ui-react";
-
 import {diodes} from './diodelist'
 
 export default class Diodes extends Component {
