@@ -7,7 +7,7 @@ import Integratedcircuit from "./Components/ic";
 import Navbar from "./Components/navbar";
 import Home from "./Components/home";
 
-class App extends React.Component {
+export default class App extends React.Component {
   render() {
     return (
       <Router>
@@ -25,4 +25,3 @@ class App extends React.Component {
     );
   }
 }
-export default App;
