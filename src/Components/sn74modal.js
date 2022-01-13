@@ -2,7 +2,7 @@ import React from "react";
 import { Modal, Button, Image } from "semantic-ui-react";
 import sn74n from "../images/sn7400n pinout.jpg";
 
-function Sn74nModal() {
+export default function Sn74nModal() {
   const [open, setOpen] = React.useState(false);
 
   return (
@@ -23,5 +23,3 @@ function Sn74nModal() {
     </Modal>
   );
 }
-
-export default Sn74nModal;

@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Modal } from "semantic-ui-react";
 
-function CapModal() {
+export default function CapModal() {
   const [open, setOpen] = React.useState(false);
 
   return (
@@ -19,7 +19,10 @@ function CapModal() {
           <ul>
             <li>Anode: Positively charged electrode</li>
             <li>Cathode: Negatively charged electrode</li>
-            <li>Dieelectric: Any material that is capable of transmitting electricity without becoming conductive</li>
+            <li>
+              Dieelectric: Any material that is capable of transmitting
+              electricity without becoming conductive
+            </li>
             <li>Electrolyte: Electrically conductive compounds</li>
           </ul>
         </Modal.Description>
@@ -30,5 +33,3 @@ function CapModal() {
     </Modal>
   );
 }
-
-export default CapModal;
