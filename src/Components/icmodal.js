@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Modal } from "semantic-ui-react";
 
-function ICModal() {
+export default function ICModal() {
   const [open, setOpen] = React.useState(false);
 
   return (
@@ -57,4 +57,3 @@ function ICModal() {
     </Modal>
   );
 }
-export default ICModal;

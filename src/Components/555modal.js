@@ -2,7 +2,7 @@ import React from "react";
 import { Button, Modal, Image } from "semantic-ui-react";
 import pinout from "../images/555 pinout.jpg";
 
-function FiveModal() {
+export default function FiveModal() {
   const [open, setOpen] = React.useState(false);
 
   return (
@@ -23,5 +23,3 @@ function FiveModal() {
     </Modal>
   );
 }
-
-export default FiveModal;

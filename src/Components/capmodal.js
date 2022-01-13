@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Modal } from "semantic-ui-react";
 
-function CapModal() {
+export default function CapModal() {
   const [open, setOpen] = React.useState(false);
 
   return (
@@ -33,5 +33,3 @@ function CapModal() {
     </Modal>
   );
 }
-
-export default CapModal;

@@ -2,7 +2,7 @@ import React from "react";
 import { Image, Button, Modal } from "semantic-ui-react";
 import pinout from "../images/LM339 pinout.jpg";
 
-function LM339Modal() {
+export default function LM339Modal() {
   const [open, setOpen] = React.useState(false);
 
   return (
@@ -23,5 +23,3 @@ function LM339Modal() {
     </Modal>
   );
 }
-
-export default LM339Modal;
