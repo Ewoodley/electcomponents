@@ -1,13 +1,11 @@
-import React from "react";
+import { React } from "react";
 import { Dropdown } from "semantic-ui-react";
-import {ohms} from './ohms'
+import { ohms } from "./ohms";
+
 import { multiplier } from "./multiplier";
 import { tolerance } from "./tolerance";
 
 export default function Resistors() {
-  
-
-  
   return (
     <div>
       <h1>This page is about Resistors</h1>
@@ -21,20 +19,10 @@ export default function Resistors() {
       </p>
       <p>Use the following chart to determine the value of the resistor:</p>
 
-      <Dropdown
-        placeholder="Band 1 color"
-       fluid
-       selection
-       options={ohms}
-      />
-      
-      <Dropdown
-         placeholder="Band 2 color"
-         fluid
-         selection
-         options={ohms}
-       />
-        
+      <Dropdown placeholder="Band 1 color" fluid selection options={ohms} />
+
+      <Dropdown placeholder="Band 2 color" fluid selection options={ohms} />
+
       <Dropdown
         placeholder="Band 3 color - Multiplier"
         fluid
@@ -47,8 +35,6 @@ export default function Resistors() {
         selection
         options={tolerance}
       />
-           
     </div>
   );
-
 }
