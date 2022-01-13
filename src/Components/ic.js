@@ -33,7 +33,6 @@ export default class IntegratedCircuits extends Component {
                 alt="SN7400N Integrated Circuit"
               />
               <p>
-                {" "}
                 The SN7400N Logic IC is NAND logic circuit where in the function
                 of the IC is controlled by user implimented NAND logic gates
               </p>
